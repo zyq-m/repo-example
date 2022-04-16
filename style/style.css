@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+/*
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+*/
+
+/* reset all style */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+.box-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  border-radius: 0.7rem;
+  overflow: hidden;
+}
+
+.box {
+  padding: 3rem;
+}
+.box-sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+.box-suv {
+  background-color: hsl(184, 100%, 22%);
+}
+.box-luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+}
+
+p {
+  margin-top: 2rem;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.cta-btn {
+  margin-top: 5rem;
+  width: fit-content;
+  padding: 16px 24px;
+  font-weight: 400;
+  border-radius: 999px;
+  border: 2px solid hsl(0, 0%, 95%);
+  background-color: hsl(0, 0%, 95%);
+}
+
+.cta-sedan {
+  color: hsl(31, 77%, 52%);
+}
+.cta-sedan:hover {
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 52%);
+}
+
+.cta-suv {
+  color: hsl(184, 100%, 22%);
+}
+.cta-suv:hover {
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 22%);
+}
+
+.cta-luxury {
+  color: hsl(179, 100%, 13%);
+}
+.cta-luxury:hover {
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  background-color: hsl(179, 100%, 13%);
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: hsl(0, 0%, 95%);
+}
